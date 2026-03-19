@@ -1,0 +1,74 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: 246 247 251;
+  --surface-alt: 255 255 255;
+  --text-main: 18 24 38;
+  --text-muted: 86 99 122;
+  --accent: 16 140 226;
+  --accent-soft: 220 242 255;
+}
+
+.dark {
+  --surface: 11 16 29;
+  --surface-alt: 20 26 43;
+  --text-main: 234 241 255;
+  --text-muted: 153 168 196;
+  --accent: 98 186 255;
+  --accent-soft: 28 48 79;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(circle at 10% 10%, rgba(16, 140, 226, 0.16), transparent 32%),
+    radial-gradient(circle at 80% 0%, rgba(240, 97, 40, 0.12), transparent 28%);
+}
+
+::selection {
+  background: rgba(16, 140, 226, 0.3);
+}
+
+.section-title {
+  @apply font-display text-3xl font-semibold tracking-tight md:text-4xl;
+}
+
+.section-copy {
+  @apply mt-4 max-w-3xl text-balance text-base text-textMuted md:text-lg;
+}
+
+.glass {
+  @apply border border-white/30 bg-white/65 backdrop-blur-md dark:border-white/10 dark:bg-surfaceAlt/70;
+}
+
+.container-wrap {
+  @apply mx-auto w-full max-w-6xl px-4 md:px-6;
+}
+
+.marquee-track {
+  animation: marquee-scroll 28s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

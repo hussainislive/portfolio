@@ -1,0 +1,11 @@
+﻿<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="24" fill="#0B1324"/>
+  <rect x="54" y="44" width="852" height="472" rx="20" fill="#121E36" stroke="#31527F"/>
+  <rect x="120" y="86" width="240" height="390" rx="38" fill="#0B1324" stroke="#4D739D"/>
+  <circle cx="240" cy="130" r="12" fill="#475569"/>
+  <rect x="154" y="166" width="172" height="20" rx="10" fill="#38BDF8"/>
+  <rect x="154" y="206" width="132" height="12" rx="6" fill="#6B85A4"/>
+  <rect x="154" y="236" width="172" height="172" rx="14" fill="#0F1A2F"/>
+  <rect x="410" y="106" width="420" height="300" rx="18" fill="#0D172B"/>
+  <text x="120" y="506" fill="#E2E8F0" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="600">DeliverMate Mobile</text>
+</svg>

@@ -1,0 +1,10 @@
+﻿<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="24" fill="#0F172A"/>
+  <rect x="36" y="36" width="888" height="488" rx="18" fill="#111C33" stroke="#28415B"/>
+  <rect x="72" y="88" width="420" height="24" rx="12" fill="#38BDF8" fill-opacity="0.8"/>
+  <rect x="72" y="132" width="292" height="16" rx="8" fill="#6B85A4"/>
+  <rect x="72" y="168" width="620" height="244" rx="16" fill="#0B1324" stroke="#31506F"/>
+  <circle cx="778" cy="140" r="62" fill="#22D3EE" fill-opacity="0.35"/>
+  <circle cx="842" cy="390" r="84" fill="#F97316" fill-opacity="0.25"/>
+  <text x="72" y="456" fill="#E2E8F0" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="600">Grocify Commerce</text>
+</svg>
