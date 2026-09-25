@@ -185,7 +185,7 @@ const socialLinks = [
 
 const resumeCandidates = [
   "/Hussain-Ahmed.pdf",
-  "/Hussain Ahmed.pdf",
+  "/Hussain_Ahmed_FullStack_Engineer.pdf",
   "/Hussain-Ahmed.docx",
   "/Hussain Ahmed.docx"
 ];
@@ -455,7 +455,7 @@ export function PortfolioPage() {
               transition={{ duration: 0.6 }}
             >
               <p className="mb-5 inline-flex rounded-full border border-accent/30 bg-accentSoft/80 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-accent dark:bg-accentSoft/35">
-                Available for freelance + remote roles
+                Available for Full-time + remote roles
               </p>
 
               <h1 className="font-display text-4xl font-bold leading-tight tracking-tight md:text-6xl">
@@ -505,18 +505,18 @@ export function PortfolioPage() {
                       alt="Hussain Ahmed" width={200} height={100} />
                   </div>
                   <h3 className="mt-6 text-center font-display text-2xl font-semibold">Full-Stack Engineer</h3>
-                  <p className="mt-2 text-center text-sm text-textMuted">Next.js • MERN • React Native</p>
+                  <p className="mt-2 text-center text-sm text-textMuted">React/Angular/NextJS • MERN • C# • .NET Core • React-Native</p>
                   <div className="mt-6 grid grid-cols-3 gap-3 text-center">
                     <div className="rounded-xl bg-white/65 p-3 dark:bg-surface/60">
-                      <p className="font-display text-xl font-semibold">2+</p>
+                      <p className="font-display text-xl font-semibold">5+</p>
                       <p className="text-xs text-textMuted">Years</p>
                     </div>
                     <div className="rounded-xl bg-white/65 p-3 dark:bg-surface/60">
-                      <p className="font-display text-xl font-semibold">25+</p>
+                      <p className="font-display text-xl font-semibold">36+</p>
                       <p className="text-xs text-textMuted">Projects</p>
                     </div>
                     <div className="rounded-xl bg-white/65 p-3 dark:bg-surface/60">
-                      <p className="font-display text-xl font-semibold">14</p>
+                      <p className="font-display text-xl font-semibold">30+</p>
                       <p className="text-xs text-textMuted">Clients</p>
                     </div>
                   </div>
